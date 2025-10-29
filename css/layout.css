@@ -31,8 +31,18 @@ body {
   grid-column: span 4;
 }
 
-@media (max-width: 1024px) {
-  .main-content, .sidebar {
-    grid-column: span 12;
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .imagem {
+    width: 100%;
   }
 }
+
