@@ -1,0 +1,108 @@
+/* Estilo base do menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary);
+  padding: var(--space-2);
+  color: white;
+  position: relative;
+}
+
+.logo h1 {
+  font-size: var(--font-lg);
+  margin: 0;
+  color: white;
+}
+
+/* Botão hambúrguer */
+.hamburger {
+  display: none;
+  font-size: var(--font-xl);
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: var(--space-2);
+}
+
+/* Links do menu */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: var(--space-2);
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: var(--font-sm);
+  padding: var(--space-1);
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: var(--color-secondary);
+  border-radius: 4px;
+}
+
+/* Submenu dropdown */
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-neutral-800);
+  list-style: none;
+  padding: var(--space-1);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color-neutral-900);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: var(--space-2);
+    border-radius: 0 0 8px 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  /* Submenu no mobile */
+  .dropdown .submenu {
+    position: static;
+    display: block;
+    background-color: transparent;
+    padding-left: var(--space-2);
+  }
+
+  .submenu li a {
+    color: var(--color-accent);
+    font-size: var(--font-xs);
+  }
+}
