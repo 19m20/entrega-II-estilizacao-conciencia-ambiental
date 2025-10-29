@@ -4,9 +4,9 @@ body {
   background-color: var(--color-neutral-100);
   color: var(--color-neutral-900);
   width: 100%;
-  overflow-x: hidden; /* evita rolagem lateral */
+  overflow-x: hidden; 
   box-sizing: border-box;
-  word-break: break-word; /* evita corte de palavras longas */
+  word-break: break-word; 
 }
 
 .container {
@@ -68,3 +68,4 @@ body {
     word-break: break-word;
   }
 }
+
