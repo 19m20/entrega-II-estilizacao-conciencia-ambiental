@@ -43,6 +43,16 @@ GitHub Pages para hospedagem
 
 O site foi projetado para funcionar perfeitamente em dispositivos móveis e desktops, com layout adaptável e fontes escaláveis. O conteúdo se ajusta automaticamente à largura da tela, garantindo legibilidade e navegação fluida.
 
+**📚 Complemento das Entregas II e III**
+
+Este projeto foi desenvolvido como parte das atividades avaliativas da disciplina de Desenvolvimento Front-End e contempla os requisitos das Entregas II e III:
+
+🔹 Entrega II – Estilização e Leiautes Aplicação de CSS3 moderno com sistema de design, paleta de cores, tipografia hierárquica, espaçamento modular, grid de 12 colunas, flexbox e leiautes responsivos.
+
+🔹 Entrega III – Interatividade e Funcionalidades Implementação de JavaScript para manipulação do DOM, validação de formulários, armazenamento local com localStorage, máscaras de input, navegação interativa com menu hambúrguer e exibição dinâmica de dados.
+
+---
+
 **👩‍💻 Autora**
 
 Maiara – Desenvolvedora Front-End em formação, apaixonada por tecnologia e sustentabilidade.
