@@ -70,10 +70,11 @@ body {
 }
 .titulo-site {
   text-align: center;
-  color: var(--color-accent); /* ou substitua por uma cor direta como #2ecc71 */
-  font-size: var(--font-xl); /* opcional: aumenta o tamanho */
-  margin-top: var(--space-2); /* opcional: espaçamento superior */
+  color: #2ecc71; /* verde vibrante */
+  font-size: var(--font-xl); 
+  margin-top: var(--space-2); 
 }
+
 
 
 
