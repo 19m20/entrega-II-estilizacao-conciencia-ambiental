@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Front-
 🔗 Acesse o site
 Você pode visualizar o projeto online através do GitHub Pages:
 
-👉 Clique aqui para abrir o site
+👉 https://19m20.github.io/entrega-II-estilizacao-conciencia-ambiental/
 
 📌 Funcionalidades
 ✅ Página inicial com layout responsivo
